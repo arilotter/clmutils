@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Jam3/clmutils/issues"
   },
-  "homepage": "https://github.com/Jam3/clmutils"
+  "homepage": "https://github.com/Jam3/clmutils",
+  "dependencies": {
+    "getboundingbox": "0.0.0"
+  }
 }
