@@ -1,0 +1,24 @@
+{
+  "name": "clmutils",
+  "version": "0.0.0",
+  "description": "A collection of utility functions to work with CLM Trackr data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jam3/clmutils"
+  },
+  "keywords": [
+    "clm",
+    "trackr",
+    "tracker"
+  ],
+  "author": "Mikko Haapoja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jam3/clmutils/issues"
+  },
+  "homepage": "https://github.com/Jam3/clmutils"
+}
