@@ -1,8 +1,8 @@
-var extractPositions = require('./extractPositions');
-var inflatePositions = require('./inflatePositions');
+var extractPositions = require('./lib/extractPositions');
+var inflatePositions = require('./lib/inflatePositions');
 var forehead = require('./forehead');
-var posUtils = require('./posUtils');
-var range = require('./range');
+var posUtils = require('./lib/posUtils');
+var range = require('./lib/range');
 var SIDES_LENGTH = 0.9,
 	TWO_PI = Math.PI * 2;
 

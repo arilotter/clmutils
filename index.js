@@ -1,8 +1,8 @@
 module.exports = {
 
-	faceOrientation: require( './lib/faceOrientation' ),
-	getFaceSize: require( './lib/getFaceSize' ),
-	textureCapture: require( './lib/textureCapture' ),
-	forehead: require( './lib/forehead' ),
-	halo: require( './lib/halo' )
+	faceOrientation: require( './faceOrientation' ),
+	getFaceSize: require( './getFaceSize' ),
+	textureCapture: require( './textureCapture' ),
+	forehead: require( './forehead' ),
+	halo: require( './halo' )
 };

@@ -55,44 +55,6 @@ function add( clmPositions, numPointsToAdd ) {
 	if(indices.end == -1) indices.end = clmPositions.length-1;
 
 	return clmPositions;
-
-	// if( clmPositions ) {
-
-	// 	var noseTopX = clmPositions[ 33 ][ 0 ];
-	// 	var noseTopY = clmPositions[ 33 ][ 1 ];
-
-	// 	//calculate nose length. nose length == forehead size
-	// 	var dX = noseTopX - clmPositions[ 62 ][ 0 ],
-	// 		dY = noseTopY - clmPositions[ 62 ][ 1 ],
-	// 		length = Math.sqrt( dX * dX + dY * dY ) * 1.5,
-	// 		rotation = Math.atan2( dY, dX ),
-	// 		cosRot = Math.cos( rotation ),
-	// 		sinRot = Math.sin( rotation );
-
-	// 	var foreheadTopX = cosRot * length + noseTopX,
-	// 		foreheadTopY = sinRot * length + noseTopY;
-
-	// 	var xLength = cosRot * length * SIDES_LENGTH,
-	// 		yLength = sinRot * length * SIDES_LENGTH;
-
-	// 	var leftOfTopX = xLength + clmPositions[ 27 ][ 0 ], //center of eye
-	// 		leftOfTopY = yLength + clmPositions[ 27 ][ 1 ]; //center of eye
-
-	// 	var rightOfTopX = xLength + clmPositions[ 32 ][ 0 ], //center of eye
-	// 		rightOfTopY = yLength + clmPositions[ 32 ][ 1 ]; //center of eye
-
-	// 	var newPoints = [ clmPositions[ 0 ], 
-	// 					  [ leftOfTopX, leftOfTopY ], 
-	// 					  [ foreheadTopX, foreheadTopY ], 
-	// 					  [ rightOfTopX, rightOfTopY ],
-	// 					  clmPositions[ 14 ] ];
-
-	// 	newPoints = smooth( newPoints );
-
-	// 	clmPositions = clmPositions.concat( newPoints.slice( 1, newPoints.length - 2 ) );
-	// }
-
-	// return clmPositions;
 };
 
 function setIndices(indicesData) {
