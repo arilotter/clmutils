@@ -49,10 +49,21 @@ var size = getFaceSize(clmPositions);
 console.log(size.width); // width of face
 console.log(size.height); // height of face
 
-textureCapture(clmPositions, video, outContext, targetWidth, targetHeight, offX, offY);
-
-// add 10 points to create a forehead (original array is modified)
+// add 10 points to create an approximate forehead (original array is modified) since the CLM positions do not include one
 forehead(clmPositions, 10); 
+// create a halo (original array is modified) if you want extra padding around the face
+halo(clmPositions); 
+
+// textureCapture returns UV coordinates based on the clmPositions and can optionally extract a texture from the image or video element onto a canvas2d context.
+var texOptions = {
+	outContext: null, //an optional canvas2d context if you want a texture rendered from options.image or options.video
+	options.video: null, //an optional video element that was used to generate the CLM points
+	options.image: null, //an optional image element that was used to generate the CLM points
+	options.forehead: false, //include or exclude the points that make up the forehead
+	options.halo: false, //include or exclude the points that make up the halo
+};
+var uvs = textureCapture(clmPositions, texOptions);
+
 ```
 
 ## License
