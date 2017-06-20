@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jam3/clmutils"
+    "url": "https://github.com/arilotter/clmutils"
   },
   "keywords": [
     "clm",
@@ -18,11 +18,11 @@
   "author": "Mikko Haapoja",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jam3/clmutils/issues"
+    "url": "https://github.com/arilotter/clmutils/issues"
   },
-  "homepage": "https://github.com/Jam3/clmutils",
+  "homepage": "https://github.com/arilotter/clmutils",
   "dependencies": {
-    "chaikin-smooth": "0.0.0",
-    "getboundingbox": "0.0.0"
+    "chaikin-smooth": "^1.0.4",
+    "getboundingbox": "^1.0.0"
   }
 }
